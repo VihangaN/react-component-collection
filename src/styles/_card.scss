@@ -6,6 +6,12 @@
     position: relative;
     padding:.5rem;
     overflow: hidden;
+    cursor: pointer;
+    transition: border .2s ease;
+
+    &:hover{
+        border:1px solid rgba(0,0,0,0.3);
+    }
 
     .top-bar{
         width:100%;
@@ -37,6 +43,9 @@
     .card_component{
         width:100%;
         height:calc(100% - 4rem);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
 }
