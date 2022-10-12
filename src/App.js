@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Container from './components/Container';
+
+import Header from './components/Header'
+import ContainerCard from './components/ContainerCard';
+
+// import config file
+
+import { config } from './config';
 
 function App() {
+
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Container>
+        {
+          config && config.map((c , i)=>{
+            return  <ContainerCard title={c.title} component={c.component} slug={c.slug} author={c.author} gh_handle={c.github_handle}/>
+          })
+        }
+         
+      </Container>
     </div>
   );
 }
