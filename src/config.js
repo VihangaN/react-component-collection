@@ -4,7 +4,7 @@ export const config = [
   {
     title: "Toggle switch",
     component: <ToggleSwitch/>,
-    slug:"button",
+    slug:"toggleswitch",
     github_handle:"VihangaN"
   },
   
