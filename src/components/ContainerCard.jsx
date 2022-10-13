@@ -11,7 +11,7 @@ export default function ContainerCard({ title, slug, gh_handle }) {
       <div className="top-bar">
         <img src={`https://github.com/${gh_handle}.png`} alt="" />
         <div className="details">
-          <a href={`https://github.com/${gh_handle}`} target="_blank"><span className="handle">&nbsp;@{gh_handle} </span></a>
+          <a href={`https://github.com/${gh_handle}`} target="_blank" rel="noreferrer"><span className="handle">&nbsp;@{gh_handle} </span></a>
         </div>
       </div>
       <div className="card_title">{title}</div>
