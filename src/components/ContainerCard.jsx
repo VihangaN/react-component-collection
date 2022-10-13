@@ -1,23 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-export default function ContainerCard({
-  title,
-  component,
-  slug,
-  author,
-  gh_handle,
-}) {
+
+export default function ContainerCard({ title, slug, gh_handle }) {
+
+    const navigate = useNavigate();
+ 
   return (
-    <div className="card-base">
-        <div className="top-bar">
+    <div className="card-base" onClick={()=>navigate(`${slug}-by-${gh_handle}`)}>
+      <div className="top-bar">
         <img src={`https://github.com/${gh_handle}.png`} alt="" />
-        <div className="details"> {title} by <span className="handle">&nbsp;@{gh_handle} </span></div>
+        <div className="details">
+          <a href={`https://github.com/${gh_handle}`} target="_blank" rel="noreferrer"><span className="handle">&nbsp;@{gh_handle} </span></a>
         </div>
-        <div className="card_component">
-            {component}
-        </div>
-     
-     
+      </div>
+      <div className="card_title">{title}</div>
     </div>
   );
 }

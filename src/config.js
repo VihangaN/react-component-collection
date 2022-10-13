@@ -7,6 +7,5 @@ export const config = [
     slug:"button",
     github_handle:"VihangaN"
   },
- 
   
 ];
