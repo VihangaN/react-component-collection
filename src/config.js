@@ -1,4 +1,5 @@
 import ToggleSwitch from "./contribute/components/ToggleSwitch";
+import TreeSelectInput from "./contribute/components/TreeSelect";
 
 export const config = [
   {
@@ -7,5 +8,12 @@ export const config = [
     slug:"toggleswitch",
     github_handle:"VihangaN"
   },
+  {
+    title: "Tree Select",
+    component: <TreeSelectInput/>,
+    slug:"treeSelect",
+    github_handle:"VihangaN"
+  },
+ 
   
 ];

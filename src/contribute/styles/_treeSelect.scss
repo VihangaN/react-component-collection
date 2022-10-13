@@ -1,0 +1,167 @@
+
+#layout {
+ 
+
+  #component-base {
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+    #three-select {
+      width: 100%;
+      position: relative;
+      display: flex;
+      border: 1px solid #718093;
+      border-radius: 5px;
+      padding: 2px 0;
+      #tree-select-base {
+        width: 100%;
+        height: 30px;
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2px 3px 2px 2px;
+
+        input {
+          height: 100%;
+          width: 100%;
+          border: none;
+          outline: none;
+          color: #34495e;
+          padding-left: 5px;
+          font-size: 16px;
+          background: none;
+          &::placeholder {
+            font-size: 13px;
+            font-style: italic;
+            color: rgba(0, 0, 0, 0.5);
+          }
+          &:-ms-input-placeholder {
+            font-size: 13px;
+            font-style: italic;
+            color: rgba(0, 0, 0, 0.5);
+          }
+          &::-webkit-input-placeholder {
+            font-size: 13px;
+            font-style: italic;
+            color: rgba(0, 0, 0, 0.5);
+          }
+        }
+        #drop-button {
+          width: 32px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+
+          border-radius: 5px;
+
+          &:hover {
+            background: rgba(52, 73, 94, 0.085);
+          }
+        }
+      }
+    }
+
+    #three-drop-base {
+      position: absolute;
+      top: 40px;
+      width: 93%;
+      min-height: 40px;
+      max-height: 278px;
+      overflow-y: auto;
+      pointer-events: auto;
+      padding: 10px;
+      border-radius: 5px;
+      background: #fff;
+      box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.2);
+
+      &::-webkit-scrollbar {
+        background: none;
+      }
+      &::-webkit-scrollbar-track {
+        background: none;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: rgba(52, 73, 94, 0.2);
+        border-radius: 20px;
+        border: 3px solid transparent;
+        background-clip: content-box;
+      }
+    }
+
+    #tree-node-header {
+      width: 100%;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      #icon {
+        width: 15px;
+        height: 15px;
+        border: 1px solid #718093;
+        color: #718093;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+      #title {
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+
+    #tree-node-body {
+      width: 90.5%;
+      right: 0;
+      top: 0;
+      border-left: 0.5px dashed rgba(0, 0, 0, 0.4);
+      position: absolute;
+      padding-left: 20px;
+      padding: 10px 0px 5px 25px;
+      display: inline-block;
+      height: auto;
+      position: relative;
+      margin-left: 8px;
+
+      #child-list {
+        list-style: none;
+        padding: 3px 0px 3px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        font-size: 14px;
+        height: 20px;
+        &::before {
+          position: absolute;
+          width: 20px;
+          height: 2px;
+          left: -25px;
+          top: 13px;
+          content: "";
+          border-bottom: 0.25px dashed rgba(0, 0, 0, 0.4);
+        }
+        &:hover {
+          background: #f2f4f8;
+        }
+      }
+    }
+  }
+  #node {
+    display: block;
+  }
+
+  svg {
+    width: 15px;
+    height: 15px;
+    transition: all 0.5s ease;
+  }
+}
