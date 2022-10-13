@@ -62,7 +62,7 @@ const Icon = ({ open }) => {
 };
 
 const TreeSelect = ({ children, placeholder }) => {
-  const { open, setOpen, value, setValue } = useContext(Store);
+  const { open, setOpen, value } = useContext(Store);
   return (
     <div id="three-select" onMouseLeave={() => setOpen(false)}>
       <div id="tree-select-base">
