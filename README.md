@@ -1,13 +1,13 @@
 # Contributing to Hactoberfest2022
 <img width="2295" alt="logo" src="https://user-images.githubusercontent.com/81324145/193411234-94719960-a588-45a3-a812-41f85b517bed.jpg">
 
-Hacktoberfest, in its 9th year, is a month-long celebration of open source software run by DigitalOcean. It is a great opportunity for everyone, from seasoned developers to students and code newbies, from technical writers to UX designers, to contribute to open source communities and develop your skills, with the perks of winning limited edition items. You can do this in a variety of ways:
+Hacktoberfest, in its 9th year, is a month-long celebration of open-source software run by DigitalOcean. It is a great opportunity for everyone, from seasoned developers to students and code newbies, from technical writers to UX designers, to contribute to open-source communities and develop your skills, with the perks of winning limited edition items. You can do this in a variety of ways:
 
 * Prepare and share your project for collaboration
 * Contribute to the betterment of a project via pull requests
 * Organize an event
 * Mentor others
-* Donate directly to open source projects
+* Donate directly to open-source projects
 
 <br>
 <br>
@@ -20,7 +20,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 >
 > - Star the project
 > - Tweet about it
-> - Refer this project in your project's readme
+> - Refer to this project in your project's readme
 > - Mention the project at local meetups and tell your friends/colleagues
 <!-- omit in toc -->
 
@@ -65,11 +65,11 @@ Depending on how large the project is, you may want to outsource the questioning
 
 ### Git & GitHub
 
-Before we proceed, it's better to know the difference between Git and Github. Git is a version control system (VCS) that allows us to keep track of the history of our source code , whereas GitHub is a service that hosts Git projects.
+Before we proceed, it's better to know the difference between Git and GitHub. Git is a version control system (VCS) that allows us to keep track of the history of our source code , whereas GitHub is a service that hosts Git projects.
 
-We assume you have created an account on Github and installed Git on your System.
+We assume you have created an account on GitHub and installed Git on your System.
 
-Now enter your name and E-mail (used on Github) address in Git, by using following command.
+Now enter your name and E-mail (used on GitHub) address in Git, by using the following command.
 
 `$ git config --global user.name "YOUR NAME"`
 ` $ git config --global user.email "YOUR EMAIL ADDRESS"`
@@ -79,10 +79,10 @@ This is an important step to mark your commits to your name and email.
 
 ### Fork a project
 
-You can make a copy of the project to your account. This process is called forking a project to your Github account. On Upper right side of project page on Github, you can see -
+You can make a copy of the project to your account. This process is called forking a project to your Github account. On the Upper right side of the project page on Github, you can see -
 
 <p align="center">  <img  src="https://i.imgur.com/P0n6f97.png">  </p>
-Click on fork to create a copy of project to your account. This creates a separate copy for you to work on.
+Click on the fork to create a copy of the project to your account. This creates a separate copy for you to work on.
 
 <br />
 
@@ -90,32 +90,32 @@ Click on fork to create a copy of project to your account. This creates a separa
 
 ### Clone the forked project
 
-You have forked the project you want to contribute to your github account. To get this project on your development machine we use clone command of git.
+You have forked the project you want to contribute to your GitHub account. To get this project on your development machine we use the clone command of git.
 
 `$ git clone https://github.com/pranjay-poddar/Dev-Geeks.git` <br/>
 Now you have the project on your local machine.
 
 <br />
 
-### Add a remote (upstream) to original project repository
+### Add a remote (upstream) to the original project repository
 
-Remote means the remote location of project on Github. By cloning, we have a remote called origin which points to your forked repository. Now we will add a remote to the original repository from where we had forked.
+Remote means the remote location of the project on Github. By cloning, we have a remote called origin which points to your forked repository. Now we will add a remote to the original repository from where we had forked.
 
 `$ cd <your-forked-project-folder>`
 `$ git remote add upstream https://github.com/pranjay-poddar/Dev-Geeks.git` <br/>
-You will see the benefits of adding remote later.
+You will see the benefits of adding a remote later.
 
 <br />
 
 ### Synchronizing your fork
 
-Open Source projects have a number of contributors who can push code anytime. So it is necessary to make your forked copy equal with the original repository. The remote added above called Upstream helps in this.
+Open Source projects have a number of contributors who can push code anytime. So it is necessary to make your forked copy equal to the original repository. The remote added above called Upstream helps in this.
 
 `$ git checkout main`
 `$ git fetch upstream`
 `$ git merge upstream/main`
 `$ git push origin main` <br/>
-The last command pushes the latest code to your forked repository on Github. The origin is the remote pointing to your forked repository on github.
+The last command pushes the latest code to your forked repository on Github. The origin is the remote pointing to your forked repository on GitHub.
 
 <br />
 
@@ -134,14 +134,14 @@ The first command adds all the files or you can add specific files by removing -
 
 ### Push code and create a pull request
 
-You now have a new branch containing the modifications you want in the project you forked. Now, push your new branch to your remote github fork.
+You now have a new branch containing the modifications you want in the project you forked. Now, push your new branch to your remote GitHub fork.
 
 `$ git push origin <feature-branch>`
-Now you are ready to help the project by opening a pull request means you now tell the project managers to add the feature or bug fix to original repository. You can open a pull request by clicking on green icon -
+Now you are ready to help the project by opening a pull request means you now tell the project managers to add the feature or bug fix to the original repository. You can open a pull request by clicking on the green icon -
 
 <p align="center">  <img  src="https://i.imgur.com/aGaqAD5.png">  </p>
 
-Remember your upstream base branch should be main and source should be your feature branch. Click on create pull request and add a name to your pull request. You can also describe your feature.
+Remember your upstream base branch should be the main and the source should be your feature branch. Click on create the pull request and add a name to your pull request. You can also describe your feature.
 
 Fantastic! You've already made your first contribution.🥳
 
@@ -153,7 +153,7 @@ Fantastic! You've already made your first contribution.🥳
 
 > ### Legal Notice <!-- omit in toc -->
 >
-> When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
+> When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content, and that the content you contribute may be provided under the project license.
 ### Reporting Bugs
 
 <!-- omit in toc -->
@@ -165,11 +165,11 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 - Make sure that you are using the latest version.
 - Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [documentation](https://github.com/DSC-AIT-Pune/HacktoberFest2022/blob/main/README.md). If you are looking for support, you might want to check [this section](#i-have-a-question)).
 - To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the _**bug tracker**_.
-- Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
+- Also, make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
 - Collect information about the bug:
   - Stack trace (Traceback)
   - OS, Platform and Version (Windows, Linux, macOS, x86, ARM)
-  - Version of the interpreter, compiler, SDK, runtime environment, package manager, depending on what seems relevant.
+  - Version of the interpreter, compiler, SDK, runtime environment and package manager, depending on what seems relevant.
   - Possibly your input and the output
   - Can you reliably reproduce the issue? And can you also reproduce it with older versions?
 
@@ -177,7 +177,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 #### How Do I Submit a Good Bug Report?
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to the maintainer.
+> You must never report security-related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to the maintainer.
 <!-- You may add a PGP key to allow the messages to be sent encrypted as well. -->
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:
@@ -206,7 +206,7 @@ This section guides you through submitting an enhancement suggestion for Dev-Gee
 - Make sure that you are using the latest version.
 
 - Read the [documentation](https://github.com/DSC-AIT-Pune/HacktoberFest2022/blob/main/README.md) carefully and find out if the functionality is already covered, maybe by an individual configuration.
-- Perform a [search](https://github.com/DSC-AIT-Pune/Web-hacktoberfest2022/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+- Perform a [search](https://github.com/DSC-AIT-Pune/Web-hacktoberfest2022/issues) to see if the enhancement has already been suggested. If it has, adds a comment to the existing issue instead of opening a new one.
 - Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
 
 <!-- omit in toc -->
@@ -227,9 +227,9 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/DSC-AI
 
 Contributing to open source for the first time can be scary and a little overwhelming. Perhaps you’re a Code Newbie or maybe you’ve been coding for a while but haven’t found a project you felt comfortable contributing to.
 
-If you have never contributed to an open source project before and you’re just getting started, consider exploring these resources.
+If you have never contributed to an open-source project before and you’re just getting started, consider exploring these resources.
 
-[First contributions](https://github.com/firstcontributions/first-contributions) is a hands-on tutorial that walks you through contributions workflow on GitHub. When you complete the tutorial, you have made a contribution to the same project.
+[First contribution](https://github.com/firstcontributions/first-contributions) is a hands-on tutorial that walks you through the contributions workflow on GitHub. When you complete the tutorial, you have made a contribution to the same project.
 
 ### Improving The Documentation
 
@@ -239,7 +239,7 @@ If you want to improve the documentation then first go through [Creating Documen
 
 ### Commit Messages
 
-Commit Message should reflect the work you have done (resolve bug or add feature).
+Commit Message should reflect the work you have done (resolve a bug or add feature).
 <a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
 
 ## Your First PR
