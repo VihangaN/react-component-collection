@@ -47,5 +47,5 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 
 
 
-Stay Safe | Happy Coding! | Happy Hacktoberfest ❤️💻👨‍🎓😷
+Stay Safe | Happy Coding! | Happy Hacktoberfest 2022 ❤️💻👨‍🎓😷
 
