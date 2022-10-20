@@ -1,0 +1,26 @@
+.counter {
+    margin-bottom: 10px;
+    
+    button {
+        font-size: 3rem;
+        cursor: pointer;
+        background-color: transparent;
+        border: 0px;
+    }
+
+    span {
+        font-size: 3rem;
+        padding: 2px 12px;
+        margin: 0 16px 0 16px;
+        border-radius: 4px;
+        color: #fff;
+
+        &.black {
+            background-color: #000000;
+        }
+
+        &.red {
+            background-color: #ed3c3c;
+        }
+    }
+}
