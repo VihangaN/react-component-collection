@@ -5,6 +5,7 @@ export default function Container({ children }) {
     <div className="container-base">
       <div className="container-left"> {children[0]}</div>
       <div className="container-right"> {children[1]}</div>
+      <div className="container-right"> {children[2]}</div>
     </div>
   );
 }
