@@ -1,3 +1,4 @@
+import TagComponent from "./contribute/components/Tag";
 import ToggleSwitch from "./contribute/components/ToggleSwitch";
 import TreeSelectInput from "./contribute/components/TreeSelect";
 
@@ -14,6 +15,11 @@ export const config = [
     slug:"treeSelect",
     github_handle:"VihangaN"
   },
- 
+  {
+    title: "React Tag",
+    component: <TagComponent/>,
+    slug: "tag",
+    github_handle: "Dilshan97"
+  }
   
 ];
