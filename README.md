@@ -59,7 +59,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
     git checkout -b branch-name
     ```
 
- - Make your changes. These are the folder structure of this project
+ - Make your changes. This is the folder structure of this project
 ```markdown
        src
         - contribute
