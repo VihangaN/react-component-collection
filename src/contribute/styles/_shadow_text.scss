@@ -1,0 +1,25 @@
+.shadow_container {
+  background: linear-gradient(180deg, #cef -47.19%, #72d0ff 99.36%);
+  transition: all 0.5s ease;
+  padding: 2rem;
+  h1.shadow_text {
+    color: white;
+    margin: 0 2rem;
+    text-decoration: none;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: #b8b7b7;
+    color: transparent;
+    text-shadow: 3px 2px 0px rgba(255, 255, 255, 1);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    transition: all 0.5s ease;
+
+    &:hover {
+      transition: all 0.5s ease;
+      color: #01c2d2;
+      cursor: pointer;
+    }
+  }
+}

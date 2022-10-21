@@ -4,6 +4,7 @@ import ToggleSwitch from "./contribute/components/ToggleSwitch";
 import TreeSelectInput from "./contribute/components/TreeSelect";
 import CountDown from "./contribute/components/CountDown";
 import GradientButton from "./contribute/components/GradientButton";
+import ShadowText from "./contribute/components/ShadowText";
 
 export const config = [
   {
@@ -39,7 +40,13 @@ export const config = [
   {
     title: "React Gradient Button",
     component: <GradientButton />,
-    slug: "gradientbutton",
+    slug: "gradient_button",
+    github_handle: "engineer-aslam-hossain",
+  },
+  {
+    title: "React Shadow Text",
+    component: <ShadowText />,
+    slug: "shadow_text",
     github_handle: "engineer-aslam-hossain",
   },
 ];
