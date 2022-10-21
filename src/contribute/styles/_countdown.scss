@@ -1,0 +1,39 @@
+
+.timer_div {
+    display: flex;
+    align-items: center;
+  
+    h4 {
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+      margin: 1rem 0.2rem;
+      color: white;
+      background-color: #e6003c;
+      border-radius: 0.2rem;
+      padding: 0 0.3rem;
+  
+      span {
+        font-size: 12px;
+        margin: 0 0.5rem;
+      }
+    }
+  }
+  
+  .event_timer {
+    // position: absolute;
+    // width: 170px;
+    height: fit-content;
+    padding: 4px;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: #e6003c;
+    text-align: center;
+  }
+  
