@@ -1,7 +1,6 @@
 .container-base {
   width: 100%;
-  height: calc(100% - 4rem);
-  margin-top: 4rem;
+  top: 4rem;
   position: absolute;
   box-sizing: border-box;
   padding: 2rem;
@@ -28,10 +27,15 @@
     gap: 1rem;
   }
   .container-right {
+    margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius:5px;
+    border-radius: 5px;
+    height: calc(100vh - 12rem);
+    position: fixed;
+    right: 1rem;
+    width: 50%;
   }
 }
