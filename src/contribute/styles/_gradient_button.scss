@@ -1,0 +1,24 @@
+button.gradient_button {
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    #766dff 0%,
+    #88f3ff 48%,
+    #766dff 100%
+  );
+  background-size: 200% auto;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 5px;
+  text-decoration: none !important;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+button.gradient_button:hover {
+  cursor: pointer;
+  background-position: right center;
+  color: white !important;
+}

@@ -3,6 +3,7 @@ import TagComponent from "./contribute/components/Tag";
 import ToggleSwitch from "./contribute/components/ToggleSwitch";
 import TreeSelectInput from "./contribute/components/TreeSelect";
 import CountDown from "./contribute/components/CountDown";
+import GradientButton from "./contribute/components/GradientButton";
 
 export const config = [
   {
@@ -33,6 +34,12 @@ export const config = [
     title: "React CountDown",
     component: <CountDown />,
     slug: "countdown",
+    github_handle: "engineer-aslam-hossain",
+  },
+  {
+    title: "React Gradient Button",
+    component: <GradientButton />,
+    slug: "gradientbutton",
     github_handle: "engineer-aslam-hossain",
   },
 ];
