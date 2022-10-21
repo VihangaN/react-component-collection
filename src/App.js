@@ -40,7 +40,7 @@ function App() {
                   viewBox="0 0 113 124"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h"
+                  className="h"
                 >
                   <path
                     d="M0.846191 49.8003L0.846202 38.2416L0.846964 37.5231H13.2913L13.2913 49.8001H2.10096L0.846191 49.8003Z"
