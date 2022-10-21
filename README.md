@@ -76,7 +76,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
             - register your component style file in here    
 ```
 
-  - Add a meadningful commit and push
+  - Add a meaningful commit and push
     ```markdown
     git add .
     git commit -m 'Commit message'
